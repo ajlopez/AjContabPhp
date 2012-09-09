@@ -1,0 +1,10 @@
+<Technology>
+	<Programming>
+		<Dialect>CSharp2</Dialect>
+	</Programming>
+	<Database>
+		<Dialect>MsSql</Dialect>
+		<Name>ajcontab</Name>
+		<Host>(local)</Host>
+	</Database>
+</Technology>

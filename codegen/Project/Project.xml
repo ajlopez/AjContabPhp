@@ -1,0 +1,61 @@
+<Project>
+	<Name>AjContab</Name>
+	<Description>AjContab using AjGenesis</Description>
+	<Prefix>AjCt</Prefix>
+	<Domain>com.ajlopez</Domain>
+	<CompanyName>ajlopez</CompanyName>
+	<HasUsers>true</HasUsers>
+	<Model>
+		<Entities>
+			<Entity Source="Entities/Empresa.xml"/>
+			<Entity Source="Entities/PlanDeCuentas.xml"/>
+			<Entity Source="Entities/Cuenta.xml"/>
+			<Entity Source="Entities/Ejercicio.xml"/>
+			<Entity Source="Entities/Periodo.xml"/>
+			<Entity Source="Entities/Minuta.xml"/>
+			<Entity Source="Entities/Pase.xml"/>
+			<Entity Source="Entities/Usuario.xml"/>
+			<Entity Source="Entities/Rol.xml"/>
+			<Entity Source="Entities/UsuarioRol.xml"/>
+			<Entity Source="Entities/EmpresaUsuario.xml"/>
+		</Entities>
+		<Lists>
+			<List Entity="Empresa"/>
+			<List Entity="PlanDeCuentas"/>
+			<List Entity="Cuenta"/>
+			<List Entity="Ejercicio"/>
+			<List Entity="Periodo"/>
+			<List Entity="Minuta"/>
+			<List Entity="Pase"/>
+			<List Entity="Usuario"/>
+			<List Entity="Rol"/>
+			<List Entity="UsuarioRol"/>
+			<List Entity="EmpresaUsuario"/>
+		</Lists>
+		<Forms>
+			<Form Entity="Empresa"/>
+			<Form Entity="PlanDeCuentas"/>
+			<Form Entity="Cuenta"/>
+			<Form Entity="Ejercicio"/>
+			<Form Entity="Periodo"/>
+			<Form Entity="Minuta"/>
+			<Form Entity="Pase"/>
+			<Form Entity="Usuario"/>
+			<Form Entity="Rol"/>
+			<Form Entity="UsuarioRol"/>
+			<Form Entity="EmpresaUsuario"/>
+		</Forms>
+		<Views>
+			<View Entity="Empresa"/>
+			<View Entity="PlanDeCuentas"/>
+			<View Entity="Cuenta"/>
+			<View Entity="Ejercicio"/>
+			<View Entity="Periodo"/>
+			<View Entity="Minuta"/>
+			<View Entity="Pase"/>
+			<View Entity="Usuario"/>
+			<View Entity="Rol"/>
+			<View Entity="UsuarioRol"/>
+			<View Entity="EmpresaUsuario"/>
+		</Views>
+	</Model></Project>

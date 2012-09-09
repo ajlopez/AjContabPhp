@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/9/trunk/AjGenesis/Projects/AjContab/Entities
+END
+Model.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/4/trunk/AjGenesis/Projects/AjContab/Entities/Model.xml
+END
+Periodo.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/9/trunk/AjGenesis/Projects/AjContab/Entities/Periodo.xml
+END
+EmpresaUsuario.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/9/trunk/AjGenesis/Projects/AjContab/Entities/EmpresaUsuario.xml
+END
+UsuarioRol.xml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/9/trunk/AjGenesis/Projects/AjContab/Entities/UsuarioRol.xml
+END
+PlanDeCuentas.xml
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/9/trunk/AjGenesis/Projects/AjContab/Entities/PlanDeCuentas.xml
+END
+Usuario.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/4/trunk/AjGenesis/Projects/AjContab/Entities/Usuario.xml
+END
+Pase.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/9/trunk/AjGenesis/Projects/AjContab/Entities/Pase.xml
+END
+Ejercicio.xml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/9/trunk/AjGenesis/Projects/AjContab/Entities/Ejercicio.xml
+END
+Empresa.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/4/trunk/AjGenesis/Projects/AjContab/Entities/Empresa.xml
+END
+Rol.xml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/4/trunk/AjGenesis/Projects/AjContab/Entities/Rol.xml
+END
+Minuta.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/9/trunk/AjGenesis/Projects/AjContab/Entities/Minuta.xml
+END
+Cuenta.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/9/trunk/AjGenesis/Projects/AjContab/Entities/Cuenta.xml
+END
