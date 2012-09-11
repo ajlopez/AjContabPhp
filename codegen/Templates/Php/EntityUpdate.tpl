@@ -54,10 +54,10 @@
 		nfld = nfld+1
 		if Field.Property.Type="IdRef" then
 #>
-		${Field.Property.Name} = $${Field.Property.Name} <#
+		${Field.Property.SqlColumn} = $${Field.Property.Name} <#
 		else
 #>
-		${Field.Property.Name} = '$${Field.Property.Name}' <#
+		${Field.Property.SqlColumn} = '$${Field.Property.Name}' <#
 		end if
 	end for
 #>
@@ -69,14 +69,14 @@
 	for each Property in Form.Entity.Properties where Property.Subtype = "CreationDateTime"
 #>
 		$${Property.Name} = date('Y-m-d H:i:s');
-		$sql .= ", ${Property.Name} = '$${Property.Name}'";
+		$sql .= ", ${Property.SqlColumn} = '$${Property.Name}'";
 <#
 	end for
 
 	for each Property in Form.Entity.Properties where Property.Subtype = "Uuid"
 #>
 		$${Property.Name} = uniqid();
-		$sql .= ", ${Property.Name} = '$${Property.Name}'";
+		$sql .= ", ${Property.SqlColumn} = '$${Property.Name}'";
 <#
 	end for
 #>
@@ -87,7 +87,7 @@
 	for each Property in Form.Entity.Properties where Property.Subtype = "UpdateDateTime"
 #>
 		$${Property.Name} = date('Y-m-d H:i:s');
-		$sql .= ", ${Property.Name} = '$${Property.Name}'";
+		$sql .= ", ${Property.SqlColumn} = '$${Property.Name}'";
 <#
 	end for
 #>

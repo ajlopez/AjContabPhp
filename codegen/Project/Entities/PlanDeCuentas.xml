@@ -23,7 +23,7 @@
 		</Property>
 
 		<Property>
-			<Name>IdEmpresa</Name>
+			<Name>Empresa</Name>
 			<Type>IdRef</Type>
 			<SqlType>int</SqlType>
 			<Reference>Empresa</Reference>

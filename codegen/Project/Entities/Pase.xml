@@ -16,7 +16,7 @@
 		</Property>
 
 		<Property>
-			<Name>IdMinuta</Name>
+			<Name>Minuta</Name>
 			<Description>Minuta</Description>
 			<Type>IdRef</Type>
 			<Reference>Minuta</Reference>
@@ -31,7 +31,7 @@
 		</Property>
 
 		<Property>
-			<Name>IdCuenta</Name>
+			<Name>Cuenta</Name>
 			<Description>Cuenta</Description>
 			<Type>IdRef</Type>
 			<SqlType>int</SqlType>

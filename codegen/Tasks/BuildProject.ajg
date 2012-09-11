@@ -58,9 +58,18 @@ for each Entity in Project.Model.Entities
 		if Property.Type="Id" and not Property.SqlType then
 			Property.SqlType="int"
 		end if
+
+		if Property.Type="IdRef" and not Property.SqlType then
+			Property.SqlType="int"
+		end if
 		
 		if Property.SqlType and not Property.SqlColumn then
-			Property.SqlColumn = Property.Name
+            if Property.Type = "IdRef" then
+                Property.SqlColumn = Property.Name & "Id"
+                Message "New Sql Column " & Property.SqlColumn
+            else
+                Property.SqlColumn = Property.Name
+            end if
 		end if
 		
 		if Property.Type="Id" and not Entity.IdProperty then
@@ -101,11 +110,6 @@ for each Entity in Project.Model.Entities
 	end for
 end for
 
-'for each Entity in Project.Model.Entities
-'	for each Property in Entity.Properties where Property.Reference
-'		AddReferenceRelation(Entity,Property.Reference,Property)		
-'	end for
-'end for
 
 ' Review and complete lists
 for each List in Project.Model.Lists

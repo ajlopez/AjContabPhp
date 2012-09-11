@@ -16,7 +16,7 @@
 		</Property>
 
 		<Property>
-			<Name>IdEmpresa</Name>
+			<Name>Empresa</Name>
 			<Description>Empresa</Description>
 			<Type>IdRef</Type>
 			<SqlType>int</SqlType>
@@ -24,7 +24,7 @@
 		</Property>
 
 		<Property>
-			<Name>IdUsuario</Name>
+			<Name>Usuario</Name>
 			<Description>Usuario</Description>
 			<Type>IdRef</Type>
 			<SqlType>int</SqlType>

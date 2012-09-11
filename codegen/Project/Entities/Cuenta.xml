@@ -44,14 +44,14 @@
 		</Property>
 
 		<Property>
-			<Name>IdPlanDeCuentas</Name>
+			<Name>PlanDeCuentas</Name>
 			<Type>IdRef</Type>
 			<SqlType>int</SqlType>
 			<Reference>PlanDeCuentas</Reference>
 		</Property>
 
 		<Property>
-			<Name>IdCuentaMadre</Name>
+			<Name>CuentaMadre</Name>
 			<Type>IdRef</Type>
 			<SqlType>int</SqlType>
 			<Reference>Cuenta</Reference>

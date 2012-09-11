@@ -192,7 +192,7 @@ function ${Entity.Name}Translate($Id) {
 #>
 
 function ${Entity.Name}GetBy${Property.Reference.Name}($${Property.Name}) {
-	return ${Entity.Name}GetList("${Property.Name} = $${Property.Name}");
+	return ${Entity.Name}GetList("${Property.SqlColumn} = $${Property.Name}");
 }
 <#
 	end for

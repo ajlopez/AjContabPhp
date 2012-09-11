@@ -23,7 +23,7 @@
 		</Property>
 
 		<Property>
-			<Name>IdEmpresa</Name>
+			<Name>Empresa</Name>
 			<Description>Empresa</Description>
 			<Type>IdRef</Type>
 			<Reference>Empresa</Reference>
@@ -31,7 +31,7 @@
 		</Property>
 
 		<Property>
-			<Name>IdPlanDeCuentas</Name>
+			<Name>PlanDeCuentas</Name>
 			<Description>Plan de Cuentas</Description>
 			<Type>IdRef</Type>
 			<Reference>PlanDeCuentas</Reference>

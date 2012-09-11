@@ -41,6 +41,7 @@ create table ${Technology.Database.Prefix}${Entity.SqlTable} (
 		${EntityIdProperty.SqlColumn} int NOT NULL auto_increment,
 <# 
 for each Property in EntityNoIdSqlProperties
+        Message Property.SqlColumn
 #>
 		${Property.SqlColumn} ${Property.SqlType},
 <#

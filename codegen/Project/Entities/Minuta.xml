@@ -30,7 +30,7 @@
 		</Property>
 
 		<Property>
-			<Name>IdEjercicio</Name>
+			<Name>Ejercicio</Name>
 			<Description>Ejercicio</Description>
 			<Type>IdRef</Type>
 			<SqlType>int</SqlType>

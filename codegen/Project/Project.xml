@@ -11,7 +11,6 @@
 			<Entity Source="Entities/PlanDeCuentas.xml"/>
 			<Entity Source="Entities/Cuenta.xml"/>
 			<Entity Source="Entities/Ejercicio.xml"/>
-			<Entity Source="Entities/Periodo.xml"/>
 			<Entity Source="Entities/Minuta.xml"/>
 			<Entity Source="Entities/Pase.xml"/>
 			<Entity Source="Entities/Usuario.xml"/>
@@ -24,7 +23,6 @@
 			<List Entity="PlanDeCuentas"/>
 			<List Entity="Cuenta"/>
 			<List Entity="Ejercicio"/>
-			<List Entity="Periodo"/>
 			<List Entity="Minuta"/>
 			<List Entity="Pase"/>
 			<List Entity="Usuario"/>
@@ -37,7 +35,6 @@
 			<Form Entity="PlanDeCuentas"/>
 			<Form Entity="Cuenta"/>
 			<Form Entity="Ejercicio"/>
-			<Form Entity="Periodo"/>
 			<Form Entity="Minuta"/>
 			<Form Entity="Pase"/>
 			<Form Entity="Usuario"/>
@@ -50,7 +47,6 @@
 			<View Entity="PlanDeCuentas"/>
 			<View Entity="Cuenta"/>
 			<View Entity="Ejercicio"/>
-			<View Entity="Periodo"/>
 			<View Entity="Minuta"/>
 			<View Entity="Pase"/>
 			<View Entity="Usuario"/>
